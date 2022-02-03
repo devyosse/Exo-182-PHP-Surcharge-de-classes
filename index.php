@@ -16,12 +16,15 @@ $dragon = new Dragon();
 $dragon->setNom("Phoenix");
 
 $princesse = new Princesse();
-$princesse->setNom("Peach");
+$princesse->setNom('Peach');
+echo $princesse->getNom();
+echo "<p>". $princesse->x . "</p>";
+echo "<p>" . $princesse->y . "</p>";
 
 $sorcier = new Sorcier();
-$sorcier->setNom("Fireball");
+$sorcier->setNom('Fireball');
+echo $sorcier->getNom();
+echo "<p>". $sorcier->x . "</p>";
+echo "<p>" . $sorcier->y . "</p>";
 
-echo $humain;
-echo $princesse;
-echo $sorcier;
 
